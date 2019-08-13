@@ -1,0 +1,9 @@
+.broad-first .content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.broad-first .content .bullet {
+    width: 25%;
+}
