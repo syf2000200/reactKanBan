@@ -62,7 +62,7 @@ function GaugeCharts(props) {
     };
 
     options.title.text = props.options.name;
-    options.series[0].data[0].name = props.options.flag;
+    options.series[0].data[0].name = props.options.total;
     options.series[0].data[0].value = props.options.finished != null ? props.options.finished : 0;
 
     const onChartReady = function(chart) {
